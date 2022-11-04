@@ -28,5 +28,5 @@ for face in faces:
         x = landmarks.part(n).x
         y = landmarks.part(n).y
         cv2.circle(img=img, center=(x,y), radius=3, color=(0,255,0), thickness=-1)
-cv2.imshow(winname="Face", mat=img)
+cv2.imshow(winname="Face", mat=img, )
 cv2.waitKey(delay=0)
